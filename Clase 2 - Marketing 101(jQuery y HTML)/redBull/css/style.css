@@ -1,0 +1,94 @@
+/*
+Red Bull Blue 333399
+Celestial Blue 99CCFF
+blue collar 6699CC
+Strawvery Red FF0033
+Bee FFCC00
+*/
+a{
+  text-decoration: none;
+  color:#FFCC00;
+}
+body{
+  background-color: rgb(51,51,153);
+}
+
+header{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+ul{
+  margin: 0px;
+}
+p{
+  margin: 0px;
+}
+#container1{
+  margin: auto;
+  vertical-align: middle;
+  display: flex;
+  font-size: 50px;
+  color: rgb(255,204,0);
+  font-family: 'Questrial', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+#container2{
+  margin: auto;
+  vertical-align: middle;
+  display: flex;
+  font-size: 50px;
+  color:#FF0033;
+  font-family: 'Questrial', sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color:#FFCC00;
+}
+
+
+#features-title {
+  color:#FF0033;
+  padding-left: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#features{
+  color: #FF0033;
+  padding-left: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sideways-can{
+  padding: 20px;
+  margin: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#can-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table{
+  margin: auto;
+  padding-top: 30px;
+  vertical-align: middle;
+  display: flex;
+  font-size: 30px;
+  color:#FF0033;
+  font-family: 'Questrial', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
