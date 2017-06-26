@@ -1,54 +1,102 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>RedBull</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta name="description" content="Lata de RedBull">
   <meta name="author" content="jpom.co">
   <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="css/animate.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="css/jpo.css" rel="stylesheet" />
   <link rel="icon" type="image/png" href="favicon.ico">
-<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Patrick+Hand+SC|Questrial|Roboto+Slab" rel="stylesheet">
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Patrick+Hand+SC|Questrial|Roboto+Slab" rel="stylesheet">
+
 </head>
-  <body>
 
-    <header>
-      <div id="container1">
-        <div id="top-logo"><img src="images/logo.png"></div>
-        <div id="title">LATA DE <a target="_blank"  href="https://www.redbull.com">REDBULL</a></div>
-      </div>
-    </header>
-    <div id="sideways-can">
-      <img id="can-photo" src="images/can.png">
-    </div>
-    <div id="container2">
-      <div id="features-title">
-        <p>Es:<p>
-      </div>
-      <div id="features">
-        <ul>
-          <li>Elegante</li>
-          <li>Moderno</li>
-          <li>Juvenil</li>
-        </ul>
-      </div>
-    </div>
-    <div id="table">
-      <table>
-        <tr>
-          <td>Calorias</td>
-          <td>50</td>
-        </tr>
-      </table>
-  </body>
+<body>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
-  $(document).ready(function(){
-    $("#title").click(function(){
-      $(this).addClass('animated bounce');
-      });
-  });
-  </script>
+  <header>
+    <div id="container1">
+      <div id="top-logo"><img src="images/logo.png" class="animated bounceInDown"></div>
+      <div id="title" class="animated bounceInDown">LATAS DE <a target="_blank" href="https://www.redbull.com">REDBULL</a></div>
+    </div>
+  </header>
+  <div id="sideways-can">
+    <img id="can-photo" src="images/can.png">
+  </div>
+  <div id="container2">
+    <div id="features">
+      <ul>
+        <li>Elegante</li>
+        <li>Moderno</li>
+        <li>Juvenil</li>
+      </ul>
+    </div>
+  </div>
+  <div id="table">
+    <table>
+      <caption>Informacion Nutricional</caption>
+      <tr>
+        <td>Calorias</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Azucar</td>
+        <td>10g</td>
+      </tr>
+      <tr>
+        <td>Proteina</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Carbohidratos</td>
+        <td>50g</td>
+      </tr>
+      <tr>
+        <td>Energia</td>
+        <td>Mucha</td>
+      </tr>
+    </table>
+  </div>
+  <div id="stories">
+    <table>
+      <h3>In the news:</h3>
+      <tr>
+        <article>
+          <h6>Watch Red Bull Cliff Diving from Inis Mór as VOD</h6>
+        <blockquote cite="https://www.redbull.com/int-en/red-bull-cliff-diving-ireland-live-stream">
+        A natural rectangle carved into the rock of the rugged Aran Islands in Ireland was the target for the world’s best cliff divers on June 24. Watch the Red Bull TV live stream again as video on demand.<a href="https://www.redbull.com/int-en/red-bull-cliff-diving-ireland-live-stream"> Leer Mas</a>
+      </blockquote>
+      </article>
+      </tr>
+      <tr>
+        <article>
+          <h6>Relive great moments from Electric Daisy Carnival</h6>
+        <blockquote cite="https://www.redbull.com/int-en/watch-electric-daisy-carnival-vod-on-red-bull-tv">
+        Missed Red Bull TV's exclusive live stream? Fear not. Watch the highlights from a pulse-racing weekend in Las Vegas.<a href="https://www.redbull.com/int-en/watch-electric-daisy-carnival-vod-on-red-bull-tv"> Leer Mas</a>
+        </blockquote>
+        </article>
+      </tr>
+    </table>
+  </div>
+  <div id="videos" class="container-video">
+  <iframe class="video"  src="https://www.youtube.com/embed/4qMkBItaZ9s" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+</body>
+<footer>
+  <address>
+  Written by <a href="mailto:juan311pablo@gmail.com">Juan Pablo Ortega</a>.<br>
+  Visit us at:<br>
+  <a href="jpom.co">jpom.co</a><br>
+  Belgrado 17<br>
+  CDMX
+  </address>
+
+</footer>
 
 </html>
